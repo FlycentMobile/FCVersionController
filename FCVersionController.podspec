@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FCVersionController"
-  s.version      = “1.0.0”
+  s.version      = "0.0.1"
   s.summary      = "A short description of FCVersionController."
 
   s.description  = <<-DESC
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/FlycentMobile/FCVersionController.git", :tag => “1.0.0” }
+  s.source       = { :git => "https://github.com/harley101118/FCVersionController.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
