@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FCVersionController"
-  s.version      = "0.0.1"
+  s.version      = “1.0.0”
   s.summary      = "A short description of FCVersionController."
 
   s.description  = <<-DESC
@@ -52,9 +52,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Harley" => “harlry.gb@foxmail.com" }
+  s.author             = { "Harley" => "491078160@qq.com" }
   # Or just: s.author    = "Harley"
-  # s.authors            = { "Harley" => "harlry.gb@foxmail.com" }
+  # s.authors            = { "Harley" => "491078160@qq.com" }
   # s.social_media_url   = "http://twitter.com/Harley"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/FlycentMobile/FCVersionController.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/FlycentMobile/FCVersionController.git", :tag => “1.0.0” }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
