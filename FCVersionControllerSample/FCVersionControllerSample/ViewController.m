@@ -33,10 +33,6 @@
 //    [versionController setSearchingLocation:FCVersionSearchingLocation_FIR];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 - (IBAction)checkForUpdateAction:(id)sender
 {

@@ -32,13 +32,13 @@ typedef enum {
 + (instancetype)sharedController;
 
 /**
- *  版本更新的地址，切换版本地址后会重置新版本信息为nil，并默认执行一次新版本搜索
+ *  版本更新的地址，切换版本地址后会重置新版本信息为nil
  *  默认为AppStore: FCVersionSearchingLocation_AppStore
  */
 @property (assign, nonatomic) FCUpdateSearchingLocation searchingLocation;
 
 /**
- *  AppID，设置AppID后会重置新版本信息为nil，并默认执行一次新版本搜索
+ *  AppID，设置AppID后会重置新版本信息为nil
  *
  *  @attention AppStore和FIR版本都需要设置AppID，否则无法搜索新版本
  */
