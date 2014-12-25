@@ -94,8 +94,6 @@
     }
     _AppID = AppID;
     _latestNewVersion = nil;
-    
-    [self searchForUpdateFinished:nil];
 }
 
 - (void)setSearchingLocation:(FCUpdateSearchingLocation)searchingLocation
@@ -105,8 +103,6 @@
     }
     _searchingLocation = searchingLocation;
     _latestNewVersion = nil;
-
-    [self searchForUpdateFinished:nil];
 }
 
 - (void)searchForUpdateFinished:(void(^)(FCVersionInfo* versionInfo))finished
