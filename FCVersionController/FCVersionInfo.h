@@ -39,4 +39,11 @@
  */
 - (BOOL)sameAs:(FCVersionInfo*)info;
 
+/**
+ *  比较两个版本信息的前后，较后的表示较新的版本
+ *
+ *  @return 版本的比较结果，版本以旧到新升序排列
+ */
+- (NSComparisonResult)compareWith:(FCVersionInfo*)info;
+
 @end

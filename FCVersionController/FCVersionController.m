@@ -152,7 +152,7 @@
         FCVersionInfo *version = [[FCVersionInfo alloc] initWihtResponseDataJsonData:jsonData
                                                                    searchingLocation:_searchingLocation];
         
-        if (version == nil || [version sameAs:_currentVersion]) {
+        if (version == nil || [version compareWith:_currentVersion] != NSOrderedDescending) {
             [self callbackWithVersion:nil];
         }else {
             self.latestNewVersion = version;
